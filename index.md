@@ -10,7 +10,14 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 
 Syntax highlighted code block
 
-# Header 1
+# Informe Práctica 1: Configuración de máquina virtual en el IaaS
+
+
+
+[Image] (https://www.ull.es/servicios/stic/wp-content/uploads/sites/2/2016/05/VDI-1.png)
+
+
+
 ## Header 2
 ### Header 3
 
