@@ -5,7 +5,7 @@
 
 
 
-╔═════════════════════════════════════════════════════════════╗
+╔════════════════════════════════════════════════════════════════╗
 
 > Autora: Andrea Calero Caro
 > Alu: [alu0101202952@ull.edu.es](alu0101202952@ull.edu.es)
@@ -13,7 +13,7 @@
 > Asignatura: Desarrollo de Sistemas Informáticos
 > Universidad de La Laguna
 
-╚═════════════════════════════════════════════════════════════╝
+╚════════════════════════════════════════════════════════════════╝
 
 
 
@@ -47,15 +47,13 @@ Los objetivos en esta práctica serán la configuración de la máquina virtual 
 ## PASOS PREVIOS
 
 Antes de comenzar se nos requiere una serie de pasos previos para introducirnos en la asignatura.
+
 1. Cumplimentar la encuesta de elección de grupo de trabajo, en mi caso estaría en el **"Grupo J"** de trabajo.
 
 2. Cumplimentar la encuesta sobre expectativas y conocimientos previos, la cual ya he realizado.
 
-
-![Image](https://campusingenieriaytecnologia.ull.es/mod/feedback/view.php?id=281123)
-
-
 3. Darse de alta en el aula Google Classroom de la asignatura. Para ello seleccionamos nuestro correo institucional y seleccionamos que somos **alumnos**.
+
 4. Como ya poseía una cuenta GitHub asociada a mi correo institucional (alu0101202952@ull.edu.es), solicité los beneficios de GitHub Education y acepté la asignación del GitHub Classroom asociada a esta práctica. En caso contrario, debería de haberme creado dicha cuenta en la comunidad y realizar los pasos anteriores.
 
 5. Como para el desarrollo de esta práctica y su respectivo informe necesito conocimientos en **GitHub Pages**, **Markdown** y **Jekyll**. Mediante diversas búsquedas en páginas web, las cuales muestro en el apartado bibliografía de este informe, conseguí realizar el susudicho con el estilo que se me requiere.
