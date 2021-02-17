@@ -38,11 +38,29 @@ Syntax highlighted code block
 
 
 
-## Header 2
-### Header 3
+## OBJETIVOS
+Los objetivos en esta práctica serán la configuración de la máquina virtual IaaS de la ULL, además de la instalación y configuración de todas las herramientas necesarias para comenzar a trabajar en la asignatura, como es git y node.js. Todo ello junto con la presentación de este informe y el desarrollo del mismo en GitHub Pages.
 
-- Bulleted
-- List
+
+## PASOS PREVIOS
+
+Antes de comenzar se nos requiere una serie de pasos previos para introducirnos en la asignatura.
+1. Cumplimentar la encuesta de elección de grupo de trabajo, en mi caso estaría en el **"Grupo J"** de trabajo.
+
+2. Cumplimentar la encuesta sobre expectativas y conocimientos previos, la cual ya he realizado.
+
+
+![Image](https://campusingenieriaytecnologia.ull.es/mod/feedback/view.php?id=281123)
+
+
+Dese de alta en el aula Google Classroom de la asignatura.
+Partiremos de la idea de que ya posee una cuenta GitHub asociada a su correo institucional (aluXXXXXXXXXX@ull.edu.es). En caso contrario, créela.
+Solicite los beneficios de estudiantes de GitHub Education.
+Si no lo ha hecho antes, dese de alta en GitHub Classroom haciendo uso de su cuenta de GitHub, preferiblemente, aquella asociada a su correo institucional.
+Acepte la asignación de GitHub Classroom asociada a esta práctica.
+Lea esta breve introducción a Markdown. Deberá usar Markdown como lenguaje para escribir sus informes de prácticas. Lea el siguiente recurso sobre GitHub Pages. Habilite GitHub Pages en el repositorio asociado a esta práctica y desarrolle el informe de la misma como una GitHub Page haciendo uso de Markdown. GitHub Pages utiliza Jekyll, una herramienta que transforma ficheros de texto en sitios Web. Para más información, visite el sitio Web de Jekyll. Los siguientes cursos de GitHub Learning Lab también le podrían ser de ayuda para acometer esta tarea:
+GitHub Pages
+Communicating using Markdown
 
 1. Numbered
 2. List
