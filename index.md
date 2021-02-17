@@ -22,11 +22,11 @@ Syntax highlighted code block
 
 ╔═════════════════════════════════════════════════════════════╗
 
- ## Autora: Andrea Calero Caro
- ## Alu: [Link](alu0101202952@ull.edu.es)
- ## Práctica: 1 Configuración de máquina virtual en el IaaS
- ## Asignatura: Desarrollo de Sistemas Informáticos
- ## Universidad de La Laguna
+## Autora: Andrea Calero Caro
+## Alu: [alu0101202952@ull.edu.es](alu0101202952@ull.edu.es)
+## Práctica: 1 Configuración de máquina virtual en el IaaS
+## Asignatura: Desarrollo de Sistemas Informáticos
+## Universidad de La Laguna
 
 ╚═════════════════════════════════════════════════════════════╝
 
