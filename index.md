@@ -10,6 +10,14 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 
 Syntax highlighted code block
 
+
+**Bold** and _Italic_ and `Code` text
+
+
+◣◥◣◥◤◢◤◢◣◥◣◥◤◢◤◢◣◥◣◥◤◢◤◢◣◥◣◥◤◢◤◢◣◥◣◥◤◢◤◢◣◥◣◥◤◢◤◢
+
+
+
 # Informe Práctica 1: Configuración de máquina virtual en el IaaS
 
 
@@ -22,14 +30,18 @@ Syntax highlighted code block
 
 ╔═════════════════════════════════════════════════════════════╗
 
-## Autora: Andrea Calero Caro
-## Alu: [alu0101202952@ull.edu.es](alu0101202952@ull.edu.es)
-## Práctica: 1 Configuración de máquina virtual en el IaaS
-## Asignatura: Desarrollo de Sistemas Informáticos
-## Universidad de La Laguna
+Autora: Andrea Calero Caro
+Alu: [alu0101202952@ull.edu.es](alu0101202952@ull.edu.es)
+Práctica: 1 Configuración de máquina virtual en el IaaS
+Asignatura: Desarrollo de Sistemas Informáticos
+Universidad de La Laguna
 
 ╚═════════════════════════════════════════════════════════════╝
 
+
+
+
+◣◥◣◥◤◢◤◢◣◥◣◥◤◢◤◢◣◥◣◥◤◢◤◢◣◥◣◥◤◢◤◢◣◥◣◥◤◢◤◢◣◥◣◥◤◢◤◢
 
 ▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
 
@@ -52,6 +64,10 @@ Syntax highlighted code block
 Los objetivos en esta práctica serán la configuración de la máquina virtual IaaS de la ULL, además de la instalación y configuración de todas las herramientas necesarias para comenzar a trabajar en la asignatura, como es git y node.js. Todo ello junto con la presentación de este informe y el desarrollo del mismo en GitHub Pages.
 
 
+
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
+
+
 ## PASOS PREVIOS
 
 Antes de comenzar se nos requiere una serie de pasos previos para introducirnos en la asignatura.
@@ -63,21 +79,21 @@ Antes de comenzar se nos requiere una serie de pasos previos para introducirnos 
 ![Image](https://campusingenieriaytecnologia.ull.es/mod/feedback/view.php?id=281123)
 
 
-Dese de alta en el aula Google Classroom de la asignatura.
-Partiremos de la idea de que ya posee una cuenta GitHub asociada a su correo institucional (aluXXXXXXXXXX@ull.edu.es). En caso contrario, créela.
-Solicite los beneficios de estudiantes de GitHub Education.
-Si no lo ha hecho antes, dese de alta en GitHub Classroom haciendo uso de su cuenta de GitHub, preferiblemente, aquella asociada a su correo institucional.
-Acepte la asignación de GitHub Classroom asociada a esta práctica.
-Lea esta breve introducción a Markdown. Deberá usar Markdown como lenguaje para escribir sus informes de prácticas. Lea el siguiente recurso sobre GitHub Pages. Habilite GitHub Pages en el repositorio asociado a esta práctica y desarrolle el informe de la misma como una GitHub Page haciendo uso de Markdown. GitHub Pages utiliza Jekyll, una herramienta que transforma ficheros de texto en sitios Web. Para más información, visite el sitio Web de Jekyll. Los siguientes cursos de GitHub Learning Lab también le podrían ser de ayuda para acometer esta tarea:
-GitHub Pages
-Communicating using Markdown
+3. Darse de alta en el aula Google Classroom de la asignatura. Para ello seleccionamos nuestro correo institucional y seleccionamos que somos **alumnos**.
+4. Como ya poseía una cuenta GitHub asociada a mi correo institucional (alu0101202952@ull.edu.es), solicité los beneficios de GitHub Education y acepté la asignación del GitHub Classroom asociada a esta práctica. En caso contrario, debería de haberme creado dicha cuenta en la comunidad y realizar los pasos anteriores.
 
-1. Numbered
-2. List
+5. Como para el desarrollo de esta práctica y su respectivo informe necesito conocimientos en GitHub Pages, Markdown y Jekyll. Mediante diversas búsquedas en páginas web, las cuales muestro en el apartado bibliografía de este informe, conseguí realizar el susudicho con el estilo que se me requiere.
+
+
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
+
+
+## CONFIGURACIÓN MÁQUINA IAAS
+
+
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
 
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
