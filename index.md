@@ -245,7 +245,7 @@ Primero para clasificar mejor la parte del informe de la práctica cree una rama
 
 Con ello tendría el fichero donde elaboraría el informe, pero quiero vincularlo con la herramienta de presentación de GitHub Pages, para ello seguí los siguientes pasos:
 1. Ir al apartado _Settings_ esto en el repositorio, y luego en _Options_ llegar hasta casi el final de dicha página.
-* [Settings]()
+* [Settings](https://drive.google.com/file/d/1F1tNIh8Wlz8B28wRuKkbALoN5NbM9NWo/view)
 * [Options]()
 
 2. 
