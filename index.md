@@ -241,4 +241,11 @@ Tras finalizar la práctica se nos requiere un informe en con el formato de esti
 
 Tras saber, por diversas fuentes, cómo elaborar un informe en GitHub Pages llegué a:
 Primero para clasificar mejor la parte del informe de la práctica cree una rama nueva llamada **gh_pages** en mi repositorio y un archivo _.md_ denominado **index.md**, también me surgió una duda, que plantearé en el apartado **"CONCLUSIONES"**:
-* [Rama informe gh_pages]
+* [Rama informe gh_pages](https://drive.google.com/file/d/163x2QqzIxu7RmCQzYU5a3cijoz7HLrrS/view)
+
+Con ello tendría el fichero donde elaboraría el informe, pero quiero vincularlo con la herramienta de presentación de GitHub Pages, para ello seguí los siguientes pasos:
+1. Ir al apartado _Settings_ esto en el repositorio, y luego en _Options_ llegar hasta casi el final de dicha página.
+* [Settings]()
+* [Options]()
+
+2. 
