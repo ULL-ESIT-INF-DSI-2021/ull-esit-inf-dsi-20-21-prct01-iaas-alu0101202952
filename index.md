@@ -108,5 +108,5 @@ Una vez que tenemos el host necesitaré configurar la llave pública-privada, co
 > `cat .ssh/id_rsa.pub`
 
 Nos mostrará la llave:
-https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct01-iaas-alu0101202952/blob/doc/llave_pub.jpg
+![Image](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct01-iaas-alu0101202952/blob/doc/llave_pub.jpg)
 
