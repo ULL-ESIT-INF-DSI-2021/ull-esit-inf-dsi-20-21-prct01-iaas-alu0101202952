@@ -66,8 +66,12 @@ Antes de comenzar se nos requiere una serie de pasos previos para introducirnos 
 ## CONFIGURACIÓN MÁQUINA IAAS
 
 Lo primero para poder acceder al servicio de máquinas virtuales del IaaS es configurar la VPN, en mi caso ya la tengo configurada gracias a la aplicación de **GlobalProtect**, a la cual accedo a la VPN de la ULL introduciendo en el usuario `aluxxxxxxxxxx` y en la contraseña `contraseña_institucional`. Y así nos conectaríamos.
+* [VPN_acceso](https://drive.google.com/file/d/19OsVf77mYxXfyt7Qb0S1zYPXx1RQ3KTv/view)
 
-Una vez dentro del servicio https://iaas.ull.es/ovirt-engine/, tras meterme con mi alu y contraseña, enciendo mi máquina virtual asignada en la asignatura de Desarrollo de Sistemas Informáticos (DSI) con un identificador, en mi caso es **DSI-31**. Cuando la enciendo, desde mi subsistema Linux Ubuntu 18.04 LTS me conecto a ella mediante el commando:
+Una vez dentro del servicio https://iaas.ull.es/ovirt-engine/, tras meterme con mi alu y contraseña, enciendo mi máquina virtual asignada en la asignatura de Desarrollo de Sistemas Informáticos (DSI) con un identificador, en mi caso es **DSI-31**.
+* [Máquina virtual DSI-31](https://drive.google.com/file/d/1aSENTWgb3IIfF8K_ADWfvdmqduShmMH4/view)
+
+Cuando la enciendo, desde mi subsistema Linux Ubuntu 18.04 LTS me conecto a ella mediante el commando:
 
 > `andreacc@DESKTOP-EMSOIU9:~$ ssh usuario@10.6.XXX.XXX` 
 Esto con la IP de mi máquina virtual
@@ -227,3 +231,14 @@ Para poder manejarnos entre versiones tenemos que saber unos comandos muy útile
 * [Cambiar entre versiones](https://drive.google.com/file/d/1dOCjJGDGPqnrBKUJVgrOjWB8_zVMBjdX/view)
 
 
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
+
+
+## DESARROLLO DEL INFORME CON GITHUB PAGES
+
+
+Tras finalizar la práctica se nos requiere un informe en con el formato de estilos de Markdown en **GitHub Pages**, para ello me familiaricé e informé tras búsquedas en la página oficial, otros sitios web y visualizaciones de vídeos. Podemos ver la guía de estilos de Markdown en [Markdown guide](https://guides.github.com/features/mastering-markdown/).
+
+Tras saber, por diversas fuentes, cómo elaborar un informe en GitHub Pages llegué a:
+Primero para clasificar mejor la parte del informe de la práctica cree una rama nueva llamada **gh_pages** en mi repositorio y un archivo _.md_ denominado **index.md**, también me surgió una duda, que plantearé en el apartado **"CONCLUSIONES"**:
+* [Rama informe gh_pages]
