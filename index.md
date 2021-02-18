@@ -30,7 +30,7 @@
   - Instalación de git y node.js
   - Desarrollo del informe con GitHub Pages
   - Conclusiones
-  - Bibliografía
+  - Bibliografía y/o Webgrafía
   
   
 
@@ -244,8 +244,47 @@ Primero para clasificar mejor la parte del informe de la práctica cree una rama
 * [Rama informe gh_pages](https://drive.google.com/file/d/163x2QqzIxu7RmCQzYU5a3cijoz7HLrrS/view)
 
 Con ello tendría el fichero donde elaboraría el informe, pero quiero vincularlo con la herramienta de presentación de GitHub Pages, para ello seguí los siguientes pasos:
-1. Ir al apartado _Settings_ esto en el repositorio, y luego en _Options_ llegar hasta casi el final de dicha página.
+1. Ir al apartado _Settings_ esto en el repositorio, y luego en _Options_ llegar hasta casi el final de dicha página, al subapartado _GitHub Pages_.
 * [Settings](https://drive.google.com/file/d/1F1tNIh8Wlz8B28wRuKkbALoN5NbM9NWo/view)
-* [Options]()
+* [Options](https://drive.google.com/file/d/1Dj_RaJHyn8KT4tpeUUVKQ8fl-obRoeTK/view)
 
-2. 
+2. **Paso previo** Se debe ejecutar este paso antes, porque si no saltaría un _warning_ debido a la privacidad del repositorio, para ello llegamos al final de la página de _Options_ donde pone _Danger Zone_ y cambiamos la privacidad de **Privada** a **Pública**:
+* [Cambiar visibilidad](https://drive.google.com/file/d/19mlsWJBR7iufx1CspcS89cf30N9qU1Bh/view)
+
+3. Ahora ya con la visibilidad en pública podemos ir al subapartado _GitHub Pages_ antes nombrado y decidir la rama por **gh_pages** donde se encuentra el index.md que contendrá el informe con el que trabajaremos:
+* [GitHub Pages rama](https://drive.google.com/file/d/1Dj_RaJHyn8KT4tpeUUVKQ8fl-obRoeTK/view)
+
+4. Luego en el apartado _Change Theme_ podremos cambiar el tema de fondo con el que se presentará el informe, al aplicar todo, en la parte de arriba se crea un nuevo enlace al informe, dicho enlace se subirá a la tarea dedicada a esta práctica.
+* [Cambiar tema y enlace del informe](https://drive.google.com/file/d/1pZ0Ugz-CtyTPXga6kdyy_MTIGh3hvHaT/view)
+
+Y así finalizamos esta práctica e informe redactado en el archivo **index.md** dentro de la rama **gh_pages**.
+
+
+
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
+
+
+## CONCLUSIONES
+
+Conclusión sobre la práctica e informe, aquí plantearé la dinámica de la práctica y posibles dudas que me hayan surgido y solucionado. La práctica en sí pude hacerla sin dificultades. Sin embargo, a la hora de hacer el informe como nunca antes había usado la herramienta GitHub Pages, tuve que informarme y en varias fuentes me indicaban algo distinto del formato del fichero donde hacer el informe. Esto es debido a que algunos usuarios realizaban los informes o páginas web en formato HTML y muy pocos en formatos .md, pero me di cuenta con la guía de estilos de Markdown que muchas herramientas como etiquetas, etc. de HTML eran sustituídas por ejemplo, los tamaños de las cabeceras 
+
+**h1 = #** 
+**h2 = ##** etc.
+
+Y aunque muchos trabajasen en HTML y al principio lo intentase con este informe, al final me di cuenta que en .md resulta más legible y conciso, además de ser el formato que aparece en algunas páginas oficiales. Pero de resto, a medida que investigaba conseguía saberme desenvolver algo mejor con la herramienta.
+
+
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
+
+
+## BIBLIOGRAFÍA Y/O WEBGRAFÍA
+- https://pages.github.com/
+- https://github.com/cristinafsanz/github-pages
+- https://docs.github.com/en/github/working-with-github-pages
+- https://developer.mozilla.org/es/docs/Learn/Using_Github_pages
+- https://www.youtube.com/watch?v=QaxgF4v4hms
+- https://devcode.la/tutoriales/publicar-tu-web-usando-github-pages/
+- https://docs.github.com/es/github/writing-on-github/basic-writing-and-formatting-syntax
+- https://parzibyte.me/blog/2019/01/17/agregar-imagenes-github-readme-otras-paginas/
+- https://guides.github.com/features/mastering-markdown/
+- https://docs.github.com/es/github/working-with-github-pages/setting-up-a-github-pages-site-with-jekyll
