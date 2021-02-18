@@ -108,8 +108,8 @@ Una vez que tenemos el host necesitaré configurar la llave pública-privada, co
 > `andreacc@DESKTOP-EMSOIU9:~$ cat .ssh/id_rsa.pub`
 
 Nos mostrará la llave:
-![Image](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct01-iaas-alu0101202952/blob/doc/llave_pub.jpg)
-> `ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDz6FGjEM29Kb8G3OUWK4wclU6hXZNlX8zGeOJndFvDnjG/wcPqL9ofJU5md8yD9ZRYWu4Sz7QKhjX/+Vfcv85rtwzrNAnkwzEOQOXza5J2I9SxuOmAd9XqfhRvl/drr7CDw4Qm1oyCp3UdtN+zp7FzHdHUNIRGuisjyQZ704Wovigq+od62ij5hB3tTLDY5iPbMf2Mf5x3CoY4n4g7S7CLJWYDwZP+yKLWhBpRdIlukV5hSvNSclvgvnCm/Xz+sQYFZ/DiljjLa5qR/Qgi0ujZoeO2UDviCEQiSUH6BtePol2519WMrIF3/+oxk3PwM7af9RXNBQZTu/2U2qWdBHgb andreacc@DESKTOP-EMSOIU9`
+
+* [Llave pública-privada](https://drive.google.com/file/d/1tY3NSqwOnjAxTaY-txrG4an76O-ev7MD/view)
 
 Como ya se generó el par de llaves no debo hacer nada más. A continuación, una vez generadas las claves, ejecuto el comando:
 > `andreacc@DESKTOP-EMSOIU9:~$ ssh-copy-id usuario@iaas-dsi31`
@@ -120,9 +120,7 @@ Con ello compruebo que ahora no necesito la ip de mi máquina y tampoco introduc
 > `vi ~/.ssh/config `
 
 Lo edito y pongo: 
-> `Host iaas-dsi31
-     HostName iaas-dsi31
-     User usuario`
+* [ssh/config](https://drive.google.com/file/d/1ATeEnR2ufiHdiJKhw0RFgrEwywdWwTCU/view)
      
 Ahora se puede iniciar una conexión SSH simplemente indicando el nombre de la máquina virtual tal que:
 > `andreacc@DESKTOP-EMSOIU9:~$ ssh iaas-dsi31 `
@@ -166,8 +164,66 @@ Quedando:
 **AHORA SE CONFIGURARÍA EL PROMPT**
 
 Para modificar el prompt se siguen dos pasos sencillos, esto para bash:
-1. Descargar del script [git_prompt_script](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh), en mi caso lo copié
+1. Descargar del script [git_prompt_script](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh)
+
+Los pasos serían:
+> `mv git-prompt.sh .git-prompt.sh`
+
 2. Modificar el fichero  **~/.bashrc**, mediante:
 > `vi ~/.bashrc`
+
+Pegando al final del propio fichero las líneas:
+* [vi ~/.bashrc](https://drive.google.com/file/d/1g7BxsLxBsmQA_NeC6j0rAxt2HZtyLw6l/view)
+
+Y así cambiaría el prompt quedando:
+* [Prompt](https://drive.google.com/file/d/1hcIhewQhMGEXu3yhr_feQveXSBOyqrvu/view)
+
+Ahora reiniciaríamos para refrescar el prompt tal que:
+> `exec bash -l`
+
+##### Al finalizar: 
+
+Como tendremos que trabajar remotamente con repositorios del **GitHub**, necesitamos enlazar la cuenta de git con nuetsra máquina, siguiendo los siguientes pasos:
+1. Copiamos la llave pública de la máquina:
+* [Llave-máquina](https://drive.google.com/file/d/1FCHyVj-SUK576aw9YtwifFhVs26ZC_S8/view)
+
+2. Vamos a la configuración de la cuenta en _Setting -> SSH and GPG keys_
+* [Setting](https://drive.google.com/file/d/1C2Oa1mzrrPfoUjxxVgrgrAraVysSAVFf/view)
+* [SSH and GPG keys](https://drive.google.com/file/d/1j6L5yQTB4dmAA23WYNu83gCPf1D5Q4dO/view)
+
+3. Creamor una nueva llave en el **botón verde** _New SSH key_
+* [New SSH key](https://drive.google.com/file/d/1nD38rPk_ctYkgW10tn8fvhwsm-w4UZYb/view)
+
+4. Rellenaríamos los campos título con _usuario@iaas-dsi31_ y el campo Key o llave con la llave ya copiada en el **paso 1**
+* [Add Key](https://drive.google.com/file/d/1AGFscblE97-UZAgUD9Ye-jNa0hirTVuZ/view)
+
+5. Ahora clonaremos el repositorio que hemos aceptado de tarea, tal que:
+> `git clone git@github.com:ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct01-iaas-alu0101202952.git` 
+
+6. Comprobamos con el comando `ls` y entramos en el repositorio clonado:
+* [cd repositorio](https://drive.google.com/file/d/1vxcm51UgAyT2LhbvMSOHrJAKCQHmHGlT/view)
+
+##### Procedemos con la instalación de node.js y su control de versiones nvm
+
+Node.js es un entorno que permite la ejecución de código desarrollado en JavaScript y variantes, como por ejemplo, TypeScript, con el cual trabajaremos en la asignatura, para ello ejecutamos los comandos:
+* [Instalar nvm](https://drive.google.com/file/d/1AhZan6jlpzNvfz9BnfNq3j2waaA6y0_t/view)
+
+Y con el comando `nvm install node` instalamos el entorno de código desarrollado en JavaScript.
+
+Como sabemos con el comando `... --version` veremos la versión con la que trabajaremos tanto en **node** como en **nvm**. En el caso del paquete que se nos instaló es la versión:
+* [Versiones instaladas por defecto](https://drive.google.com/file/d/1QiIXDlzp4Je0DHhiIAPzqmsUU8hr2M9A/view)
+
+Para poder manejarnos entre versiones tenemos que saber unos comandos muy útiles como:
+
+##### COMANDOS ÚTILES
+
+- Saber qué versiones hay con el comando `list`:
+* [Versiones que hay](https://drive.google.com/file/d/1_YQLNy66u_ZCjkSh9m18cYN4IqL1KQ_Z/view)
+
+- Instalar una versión concreta con el comando `install`:
+* [Versión concreta](https://drive.google.com/file/d/1EhT-yDzr3rbGenykALdDLXYgmUwgR9wC/view)
+
+- Cambiar entre versiones con el comando `use`:
+* [Cambiar entre versiones](https://drive.google.com/file/d/1dOCjJGDGPqnrBKUJVgrOjWB8_zVMBjdX/view)
 
 
