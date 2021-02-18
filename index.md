@@ -20,10 +20,12 @@
 
 
 
-▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
 
 
 ## Índice
+
+
   - Objetivos
   - Pasos previos
   - Configuración máquina IaaS
@@ -35,18 +37,23 @@
   
 
 
-▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
+
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
 
 
 ## OBJETIVOS
+
+
 Los objetivos en esta práctica serán la configuración de la máquina virtual IaaS de la ULL, además de la instalación y configuración de todas las herramientas necesarias para comenzar a trabajar en la asignatura, como es git y node.js. Todo ello junto con la presentación de este informe y el desarrollo del mismo en GitHub Pages.
 
 
 
-▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
+
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
 
 
 ## PASOS PREVIOS
+
 
 Antes de comenzar se nos requiere una serie de pasos previos para introducirnos en la asignatura.
 
@@ -62,10 +69,12 @@ Antes de comenzar se nos requiere una serie de pasos previos para introducirnos 
 
 
 
-▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
+
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
 
 
 ## CONFIGURACIÓN MÁQUINA IAAS
+
 
 Lo primero para poder acceder al servicio de máquinas virtuales del IaaS es configurar la VPN, en mi caso ya la tengo configurada gracias a la aplicación de **GlobalProtect**, a la cual accedo a la VPN de la ULL introduciendo en el usuario `aluxxxxxxxxxx` y en la contraseña `contraseña_institucional`. Y así nos conectaríamos.
 『』[VPN_acceso](https://drive.google.com/file/d/19OsVf77mYxXfyt7Qb0S1zYPXx1RQ3KTv/view)
@@ -145,10 +154,12 @@ Enter same passphrase again:
 Generando así, la llave y finalizando la configuración de la máquina virtual.
 
 
-▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
+
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
 
 
 ## INSTALACIÓN DE GIT Y NODE.JS
+
 
 Primero necesitamos instalar git mediante: 
 
@@ -233,7 +244,8 @@ Para poder manejarnos entre versiones tenemos que saber unos comandos muy útile
 『』[Cambiar entre versiones](https://drive.google.com/file/d/1dOCjJGDGPqnrBKUJVgrOjWB8_zVMBjdX/view)
 
 
-▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
+
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
 
 
 ## DESARROLLO DEL INFORME CON GITHUB PAGES
@@ -264,9 +276,11 @@ Y así finalizamos esta práctica e informe redactado en el archivo **index.md**
 
 
 
-▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
+
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
 
 ## CONCLUSIONES
+
 
 Conclusión sobre la práctica e informe, aquí plantearé la dinámica de la práctica y posibles dudas que me hayan surgido y solucionado. La práctica en sí pude hacerla sin dificultades. Sin embargo, a la hora de hacer el informe como nunca antes había usado la herramienta GitHub Pages, tuve que informarme y en varias fuentes me indicaban algo distinto del formato del fichero donde hacer el informe. Esto es debido a que algunos usuarios realizaban los informes o páginas web en formato HTML y muy pocos en formatos .md, pero me di cuenta con la guía de estilos de **Markdown** que muchas herramientas como etiquetas, etc. de HTML eran sustituídas por ejemplo, los tamaños de las cabeceras 
 
@@ -276,10 +290,11 @@ Conclusión sobre la práctica e informe, aquí plantearé la dinámica de la pr
 Y aunque muchos trabajasen en HTML y al principio lo intentase con este informe, al final me di cuenta que en .md resulta más legible y conciso, además de ser el formato que aparece en algunas páginas oficiales. Pero de resto, a medida que investigaba conseguía saberme desenvolver algo mejor con la herramienta.
 
 
-▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
-
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
 
 ## BIBLIOGRAFÍA Y/O WEBGRAFÍA
+
+
 - https://pages.github.com/
 - https://github.com/cristinafsanz/github-pages
 - https://docs.github.com/en/github/working-with-github-pages
